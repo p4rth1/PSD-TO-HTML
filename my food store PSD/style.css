@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Aachen BT Roman";
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* ----------------------page 1 start------------------------- */
+.page1background {
+    background-image: url(images/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.inpage1 {
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+    opacity: 0.949;
+    padding-bottom: 20px;
+}
+
+.nav-bar {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+.nav-items {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.nav-items1 ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav-logo {
+    background-image: url(images/logo\ nav.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(1.4);
+    /* height: 500px; */
+}
+
+.nav-items2 ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.home {
+    color: #e9a438;
+}
+
+ul li {
+    color: white;
+    font-weight: 800;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 20px; */
+}
+
+.page1-banner {
+    background: url(images/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 80vh; */
+}
+
+.page1-bannerinfo {
+    color: #ffff;
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 70px;
+}
+
+.page1-bannerinfo p:first-child {
+    margin-top: 50px;
+    color: #e58f00;
+    font-size: 70px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.page1-bannerinfo p:nth-child(2) {
+    padding-right: 150px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.page1-bannerinfo button:last-child {
+    background-color: #e58f00;
+    font-size: 30px;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+/* --------------------------page 1 end----------------------- */
+
+/* -------------------------------page 2 start------------------- */
+
+
+.page2background {
+    padding: 70px;
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page2banner {
+    background-image: url(images/7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+
+.page2bannerinfo {
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.page2bannerinfo p {
+    padding-right: 30px;
+    margin: 30px;
+    margin-left: 0;
+}
+
+.page2bannerinfo p:first-child {
+    font-size: 70px;
+    color: #ffffff;
+    /* border: 2px solid red; */
+}
+
+.page2bannerinfo p:last-child {
+    font-size: 33px;
+    color: #ffffff;
+    /* border: 2px solid red; */
+}
+
+/* -------------------------------page 2 end------------------- */
+
+/* -------------------------------page 3start------------------- */
+
+.page3background {
+
+    /* border: 2px solid red; */
+    background: rgba(40, 40, 45, 0.9490196078431372);
+    position: relative;
+    /* padding-bottom: 50px; */
+    overflow: hidden;
+
+
+}
+
+.page3secondback1 img {
+    object-fit: cover;
+    transform: rotate(-6deg) translate(-87px, 0px);
+}
+
+.page3secondback2 img {
+    position: absolute;
+    /* height: 500px; */
+    height: 500px;
+    top: -50px;
+    right: -150px;
+}
+
+.page3secondback3 img {
+    position: absolute;
+    height: 450px;
+    bottom: -170px;
+    left: -100px;
+}
+
+.page3secondback4 img {
+    position: absolute;
+    height: 650px;
+    bottom: 75px;
+    right: 10px;
+}
+
+.page3info {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 50%;
+    /* transform: translate(0px,-100px); */
+}
+
+.page3info p {
+    color: white;
+    margin: 50px;
+
+}
+
+.page3info p:first-child {
+    font-size: 80px;
+}
+
+.page3info p:last-child {
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* -------------------------------page 3 end------------------- */
+
+
+/* -------------------------------page 4 start------------------- */
+
+.page4background {
+
+    padding: 20px;
+    /* border: 2px solid red; */
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+    padding-top: 100px;
+}
+
+.page4title {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
+
+.galleryimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.gi1 {
+    background-image: url(images/7.png);
+}
+
+.gi2 {
+    background-image: url(images/8.png);
+}
+
+.gi3 {
+    background-image: url(images/9.png);
+}
+
+.gi4 {
+    background-image: url(images/10.png);
+}
+
+.gi5 {
+    background-image: url(images/11.png);
+}
+
+.gi6 {
+    background-image: url(images/12.png);
+}
+
+
+
+
+
+
+
+/* -------------------------------page 4 end------------------- */
+
+
+/* ---------------------page 5 start------------------------------- */
+
+.page5background {
+    padding: 50px 0 50px 0;
+    /* border: 2px solid red; */
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+}
+
+.page5img {
+    background-image: url(images/13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+
+.page5info {
+    background-color: rgba(29, 29, 35, 0.8);
+    text-align: center;
+    width: 80vh;
+    padding: 50px;
+    border: 10px solid #e58f00;
+
+}
+
+.page5info p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.page5info p:first-child {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.page5info p:last-child {
+    font-size: 25px;
+    padding: 0px 20px 0px 20px;
+}
+
+
+/* ---------------------page 5 end------------------------------- */
+
+
+
+
+/* ---------------------page 6 start------------------------------- */
+
+
+.page6background {
+    padding: 50px 40px 50px 40px;
+    /* border: 2px solid red; */
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+}
+
+.page6title {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+    color: #ffffff;
+}
+
+.menuitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* .menuitem1 {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.menuitem2 {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.menuitem3 {
+    border: 2px solid white;
+    padding: 10px;
+} */
+
+.mi {
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    height: 300px;
+}
+
+.mitemimg1 {
+    background-image: url(images/14.png);
+}
+
+.mitemimg2 {
+    background-image: url(images/15.png);
+}
+
+.mitemimg3 {
+    background-image: url(images/16.png);
+}
+
+.miteminfo p {
+    margin: 20px 0 20px 0;
+}
+
+.miteminfo p:first-child {
+    color: #e58f00;
+    font-size: 27px;
+
+}
+
+.miteminfo p:nth-child(2) {
+    font-size: 15px;
+    color: white;
+}
+
+.miteminfo p:last-child {
+    color: #e58f00;
+    font-size: 29px;
+}
+
+
+
+
+
+
+/* ---------------------page 6 end------------------------------- */
+
+
+
+
+/* ---------------------page 7 start------------------------------- */
+.page7background {
+    padding: 50px 0px 50px 0px;
+    /* border: 2px solid red; */
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+}
+
+.inpage7back {
+    padding: 0 50px 0 50px;
+    background-color: #e58f00;
+    /* padding: 10px; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.page7bannerimg {
+    background-image: url(images/17.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    transform: scale(1.2);
+}
+
+.page7bannerinfo p {
+    margin: 30px;
+}
+
+.page7bannerinfo p:first-child {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.page7bannerinfo p:last-child {
+    font-size: 30px;
+    padding-right: 300px;
+}
+
+
+
+
+
+
+/* ---------------------page 7 end------------------------------- */
+
+
+
+
+/* ---------------------footer start------------------------------- */
+
+.footerbackground {
+    padding: 50px 0px 50px 0px;
+    /* border: 2px solid red; */
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+}
+
+.footerlogo {
+    background-image: url(images/logofooter\ .png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+}
+
+.footeritems ul {
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.footerul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.footerul li {
+    background: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+
+}
+
+
+/* ---------------------footer end------------------------------- */
